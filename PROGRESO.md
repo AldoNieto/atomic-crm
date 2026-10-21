@@ -41,7 +41,8 @@
 - Pasar Vercel a Pro antes de la Fase 6 (producción con vendedores).
 - Aldo: abrir el CRM en el iPhone e iniciar sesión.
 - Apagar dos automatismos de GitHub del proyecto original (`deploy.yml` y `claude.yml`) antes de unir nada a `main`: necesita el visto bueno de Aldo.
-- Recordatorio para la Fase 1: pasar el repositorio a privado.
+- Fase 1: Aldo explicará cómo funciona la cuota del vendedor antes de modelarla.
+- Fase 1: decidir si se pasa el repositorio a privado (explicado a Aldo, espera respuesta).
 
 ## Decisiones tomadas
 
@@ -53,6 +54,10 @@
 | 2026-10-21 | Vercel y Supabase: se entra con el GitHub personal de Aldo, pero lo de adentro va a nombre de MKT/BS (organización/equipo) | Los datos y la facturación son de la empresa y se pueden traspasar. |
 | 2026-10-21 | Supabase de desarrollo en EE. UU. Este (Americas) | Opción por defecto; buena conexión desde Lima. |
 | 2026-10-21 | Vercel en plan Hobby (gratis) por ahora | Decisión de Aldo; se pasa a Pro antes de abrirlo a los vendedores. |
+| 2026-10-21 | Ferias: feria (marca) + edición (EPI → EPI 2027) | Sirve también para el futuro ERP. |
+| 2026-10-21 | RUC único pero opcional | Hay empresas sin RUC (por ejemplo, extranjeras). |
+| 2026-10-21 | Moneda de los stands: dólares | Decisión de Aldo. |
+| 2026-10-21 | Cada vendedor ve solo sus empresas y oportunidades; el supervisor ve todo | Decisión de Aldo. |
 | 2026-10-21 | Una rama por fase; esta es `fase-0-preparacion` | Regla de Aldo. |
 
 ## Cómo retomar (para Claude)
