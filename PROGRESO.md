@@ -30,7 +30,8 @@
 
 - Aprobación de Aldo del plan de Fases 0 y 1.
 - Activar el **inicio de sesión automático** en la Mac Mini (requiere a Aldo frente a ella o por Compartir Pantalla). Sin esto, después de un corte de luz la Mac enciende pero Docker no arranca hasta que alguien inicie sesión.
-- Decidir plan de Vercel (Pro recomendado) y conectar el repositorio a Vercel.
+- Conectar el repositorio a Vercel (falta `vercel login` de Aldo en la Mac Mini).
+- Pasar Vercel a Pro antes de la Fase 6 (producción con vendedores).
 - Primera vista previa abierta desde el iPhone.
 - Apagar dos automatismos de GitHub del proyecto original (`deploy.yml` y `claude.yml`) antes de unir nada a `main`: necesita el visto bueno de Aldo.
 - Recordatorio para la Fase 1: pasar el repositorio a privado.
@@ -44,6 +45,7 @@
 | 2026-10-21 | El contexto del proyecto va en `CONTEXTO-MKTBS.md`, y `CLAUDE.md` solo lo enlaza | `CLAUDE.md` ya existía (lo trae Atomic CRM). Así no chocamos con sus actualizaciones futuras. |
 | 2026-10-21 | Vercel y Supabase: se entra con el GitHub personal de Aldo, pero lo de adentro va a nombre de MKT/BS (organización/equipo) | Los datos y la facturación son de la empresa y se pueden traspasar. |
 | 2026-10-21 | Supabase de desarrollo en EE. UU. Este (Americas) | Opción por defecto; buena conexión desde Lima. |
+| 2026-10-21 | Vercel en plan Hobby (gratis) por ahora | Decisión de Aldo; se pasa a Pro antes de abrirlo a los vendedores. |
 | 2026-10-21 | Una rama por fase; esta es `fase-0-preparacion` | Regla de Aldo. |
 
 ## Cómo retomar (para Claude)
