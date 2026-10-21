@@ -1,0 +1,8 @@
+.env*.local
+.env.local
+.vercel
+supabase/.temp
+supabase/.branches
+.harness
+.claude
+node_modules
