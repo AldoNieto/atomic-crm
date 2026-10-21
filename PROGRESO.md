@@ -4,7 +4,7 @@
 
 ## Dónde estamos
 
-**Fase 0 — Preparación.** La Mac Mini está lista, Atomic CRM funciona en local y la base de datos de desarrollo ya está en la nube (Supabase). Falta: conectar Vercel y la primera vista previa en internet. El plan detallado está en [PLAN-FASE-0-1.md](PLAN-FASE-0-1.md) y **espera la aprobación de Aldo**.
+**Fase 0 — Preparación.** La Mac Mini está lista, Atomic CRM funciona en local y la base de datos de desarrollo ya está en la nube (Supabase). El CRM ya está en internet (https://crm-ferias.vercel.app) y Aldo creó su usuario administrador. Cada rama de GitHub genera su propia vista previa en Vercel. El plan detallado está en [PLAN-FASE-0-1.md](PLAN-FASE-0-1.md) y **espera la aprobación de Aldo**.
 
 ## Hecho
 
@@ -26,13 +26,20 @@
 - También: la cuenta de Vercel ya existe (plan Hobby, con verificación en dos pasos).
 - Incidente reparado: al instalar Node 24 se actualizó una librería compartida y el Node 26 dejó de abrir. Se arregló actualizando Node 26 a 26.12.
 
+### 2026-10-21 — Vercel y primera publicación
+- La Mac Mini quedó conectada a Vercel (`vercel login`) y se creó el proyecto **crm-ferias** (plan Hobby).
+- En Vercel se cargaron la dirección de Supabase y su clave pública (no son secretas, pero no van en el repositorio).
+- Primera publicación: https://crm-ferias.vercel.app (rama `main` = esta dirección).
+- En Supabase se configuró la dirección del sitio y las direcciones permitidas para las vistas previas.
+- Aldo creó su usuario administrador desde el navegador: funciona.
+- Aldo instaló la app de Vercel en GitHub y Claude conectó el repositorio: cada rama nueva tendrá su enlace de vista previa.
+
 ## Pendiente
 
 - Aprobación de Aldo del plan de Fases 0 y 1.
 - Activar el **inicio de sesión automático** en la Mac Mini (requiere a Aldo frente a ella o por Compartir Pantalla). Sin esto, después de un corte de luz la Mac enciende pero Docker no arranca hasta que alguien inicie sesión.
-- Conectar el repositorio a Vercel (falta `vercel login` de Aldo en la Mac Mini).
 - Pasar Vercel a Pro antes de la Fase 6 (producción con vendedores).
-- Primera vista previa abierta desde el iPhone.
+- Aldo: abrir el CRM en el iPhone e iniciar sesión.
 - Apagar dos automatismos de GitHub del proyecto original (`deploy.yml` y `claude.yml`) antes de unir nada a `main`: necesita el visto bueno de Aldo.
 - Recordatorio para la Fase 1: pasar el repositorio a privado.
 
